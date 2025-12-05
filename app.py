@@ -38,8 +38,8 @@ if st.button("Predict Diagnosis"):
     prediction = model.predict(input_scaled)[0][0]
 
     if prediction > 0.5:
-        st.success("✅ Prediction: Benign (Not Cancer)")
+        st.success(" Prediction: Benign (Not Cancer)")
     else:
-        st.error("⚠️ Prediction: Malignant (Cancer)")
+        st.error(" Prediction: Malignant (Cancer)")
 
     st.write(f"Model Confidence Score: {prediction:.4f}")
