@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import tensorflow as tf
 import joblib
-
+ 
 model = tf.keras.models.load_model("breast_cancer_ann.keras", compile=False)
 scaler = joblib.load("scaler.pkl")
 
