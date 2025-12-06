@@ -6,6 +6,7 @@ It includes:
 - A Jupyter notebook for **data exploration, feature scaling, and model training**
 - A saved **TensorFlow/Keras model** and **StandardScaler**
 - A **Streamlit web app** for interactive predictions
+- https://lnkd.in/gVduX_ay
 
 ---
 
